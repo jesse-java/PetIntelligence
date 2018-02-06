@@ -1,5 +1,5 @@
 package com.naldojesse.web.models;
 
-public interface Pet {
+interface Pet {
     String showAffection();
 }

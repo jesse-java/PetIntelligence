@@ -1,17 +1,17 @@
 package com.naldojesse.web.models;
 
-abstract public class Animal implements java.io.Serializable{
-    protected String name;
-    protected String breed;
-    protected double weight;
+abstract class Animal implements java.io.Serializable{
+    String name;
+    String breed;
+    double weight;
 
-    public Animal() {
+    Animal() {
         name = null;
         breed = null;
         weight = 0.0;
     }
 
-    public Animal(String name, String breed, double weight) {
+    Animal(String name, String breed, double weight) {
         this.name = name;
         this.breed = breed;
         this.weight = weight;
