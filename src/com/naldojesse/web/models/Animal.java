@@ -1,6 +1,6 @@
 package com.naldojesse.web.models;
 
-public class Animal implements java.io.Serializable{
+abstract public class Animal implements java.io.Serializable{
     protected String name;
     protected String breed;
     protected double weight;
@@ -8,7 +8,7 @@ public class Animal implements java.io.Serializable{
     public Animal() {
         name = null;
         breed = null;
-        weight = null;
+        weight = 0.0;
     }
 
     public Animal(String name, String breed, double weight) {
