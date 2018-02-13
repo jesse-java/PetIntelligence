@@ -11,6 +11,20 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+
+  <h1>Dog</h1>
+  <form action="/animals/dog" method="post">
+    Name: <input type="text" name="name">
+    Breed: <input type="text" name="breed">
+    Weight: <input type="number" step=".1" name="weight">
+  <input type="submit" value="Submit">
   </body>
+  </form>
+  <h1>Cat</h1>
+  <form action="/animals/cat">
+    Name: <input type="text" name="name">
+    Breed: <input type="text" name="breed">
+    Weight: <input type="number" step=".1">
+    <input type="submit" value="Submit">
+  </form>
 </html>

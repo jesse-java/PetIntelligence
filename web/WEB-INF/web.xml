@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <web-app>
-    <servlet>
-        <servlet-name>Dogs</servlet-name>
-        <servlet-class>com.naldojesse.web.Dogs</servlet-class>
-    </servlet>
+    <!--<display-name>Pet Intelligence Demo</display-name>-->
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>index.jsp</welcome-file>-->
+    <!--</welcome-file-list>-->
+
+
+    <!--<servlet>-->
+        <!--<servlet-name>Dogs</servlet-name>-->
+        <!--<servlet-class>com.naldojesse.web.controllers.Dogs</servlet-class>-->
+    <!--</servlet>-->
 
     <!--<servlet-mapping>-->
-        <!--<servlet-name>test1</servlet-name>-->
-        <!--<url-pattern>/dog</url-pattern>-->
+        <!--<servlet-name>Dogs</servlet-name>-->
+        <!--<url-pattern>/animals/dog</url-pattern>-->
     <!--</servlet-mapping>-->
 
-    <servlet>
-        <servlet-name>Cats</servlet-name>
-        <servlet-class>com.naldojesse.web.Cats</servlet-class>
-    </servlet>
+    <!--<servlet>-->
+        <!--<servlet-name>Cats</servlet-name>-->
+        <!--<servlet-class>com.naldojesse.web.Cats</servlet-class>-->
+    <!--</servlet>-->
 
     <!--<servlet-mapping>-->
-        <!--<servlet-name>test2</servlet-name>-->
-        <!--<url-pattern>/cat</url-pattern>-->
+        <!--<servlet-name>Cats</servlet-name>-->
+        <!--<url-pattern>/animals/cats</url-pattern>-->
     <!--</servlet-mapping>-->
 </web-app>
